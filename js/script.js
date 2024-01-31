@@ -1,7 +1,4 @@
 
-"use strict";
-
-
 // light and dark mode 
 
 
@@ -23,7 +20,6 @@ const changeTheme = () => {
 }
 
 $themeBtn.addEventListener("click", changeTheme);
-// window.addEventListener("load", () => $themeBtn.addEventListener("click"))
 
 
 
