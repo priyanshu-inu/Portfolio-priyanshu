@@ -21,12 +21,12 @@ const changeTheme = () => {
 
 $themeBtn.addEventListener("click", changeTheme);
 
+// end 
 
 
 
 
-
-// tabs
+// all sections change 
 
 
 const $tabBtn = document.querySelectorAll("[data-tab-btn]");
@@ -48,3 +48,5 @@ $tabBtn.forEach(item => {
       lastActiveTabBtn = this;
     });
 });
+
+// end 
